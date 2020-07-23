@@ -16,3 +16,6 @@
 [submodule "navbar"]
 	path = navbar
 	url = https://github.com/team-iroh/navbar.git
+[submodule "SDC-Shraya-Service"]
+	path = SDC-Shraya-Service
+	url = https://github.com/Team-Ozai/SDC-Shraya-Service.git

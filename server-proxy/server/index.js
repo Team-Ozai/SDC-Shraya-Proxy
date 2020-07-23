@@ -1,9 +1,11 @@
+require('newrelic');
 const express = require('express');
 const app = express();
 const cors = require('cors');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const path = require('path');
 const bodyParser = require('body-parser');
+const request = require('request');
 const port = 4001;
 
 app.use(cors());
