@@ -22,9 +22,5 @@ app.get('/:id', (req, res) => {
 //   res.sendFile(path.join(__dirname, '../public', 'index.html'));
 // });
 
-app.get('/loaderio-ace45341499345f69a20205f1203e7b1.txt', (req, res) => {
-  res.send('loaderio-ace45341499345f69a20205f1203e7b1.txt')
-})
-
 app.listen(port, () => console.log(`Proxy server is listening at http://localhost:${port}`));
 
